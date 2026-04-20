@@ -1,116 +1,131 @@
 {
-  // Aparência e Temas
-  "workbench.iconTheme": "symbols",
-  "workbench.productIconTheme": "fluent-icons",
-  "workbench.colorTheme": "Min Dark",
-  "workbench.startupEditor": "newUntitledFile",
-  "workbench.editor.labelFormat": "short",
-  "workbench.editor.untitled.hint": "hidden",
-  "window.zoomLevel": 0.5,
-  "explorer.compactFolders": false,
-  "explorer.confirmDelete": false,
-  "explorer.confirmDragAndDrop": false,
-  "breadcrumbs.enabled": true,
-  // Editor
-  "editor.fontFamily": "JetBrains Mono",
-  "editor.fontSize": 14,
-  "editor.lineHeight": 1.7,
-  "editor.fontLigatures": true,
-  "editor.tabSize": 2,
-  "editor.indentSize": 2,
-  "editor.minimap.enabled": false,
-  "editor.suggestSelection": "first",
-  "editor.renderLineHighlight": "gutter",
-  "editor.parameterHints.enabled": false,
-  "editor.accessibilitySupport": "off",
-  "editor.semanticHighlighting.enabled": false,
-  "editor.rulers": [
-    100
-  ],
-  "editor.quickSuggestions": {
-    "other": true,
-    "comments": false,
-    "strings": false
-  },
-  "editor.inlineSuggest.enabled": true,
-  "terminal.integrated.fontFamily": "JetBrainsMono NF",
-  "terminal.integrated.gpuAcceleration": "off",
-  "terminal.integrated.showExitAlert": false,
-  // Auto Save
-  "files.autoSave": "afterDelay",
-  // Biome (formatação e lint)
-  "editor.codeActionsOnSave": {
-    "source.fixAll.biome": "always",
-    "source.organizeImports.biome": "explicit"
-  },
-  "editor.formatOnSave": true,
-  "[javascript]": {
-    "editor.defaultFormatter": "biomejs.biome"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "biomejs.biome"
-  },
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "biomejs.biome"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "biomejs.biome"
-  },
-  // TypeScript/JavaScript
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "typescript.suggest.autoImports": true,
-  "javascript.suggest.autoImports": true,
-  // Git
-  "git.autofetch": true,
-  "git.enableSmartCommit": true,
-  "git.confirmSync": false,
-  // Emmet para React
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact"
-  },
-  "emmet.syntaxProfiles": {
-    "javascript": "jsx"
-  },
-  // Files
-  "files.associations": {
-    "*.tsx": "typescriptreact",
-    ".env.*": "dotenv",
-    ".prettierrc": "json"
-  },
-  "files.exclude": {
-    "**/CVS": true,
-    "**/.DS_Store": true,
-    "**/.hg": true,
-    "**/.svn": true,
-    "**/.git": true
-  },
-  // Outros
-  "update.mode": "start",
-  "security.workspace.trust.untrustedFiles": "newWindow",
-  "diffEditor.codeLens": true,
-  "diffEditor.ignoreTrimWhitespace": false,
-  "terminal.integrated.defaultProfile.windows": "PowerShell 7",
-  "terminal.integrated.profiles.windows": {
-    "PowerShell": {
-      "source": "PowerShell",
-      "icon": "terminal-powershell"
-    },
-    "PowerShell 7": {
-      "path": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
-      "icon": "terminal-powershell"
-    },
-    "Command Prompt": {
-      "path": [
-        "${env:windir}\\Sysnative\\cmd.exe",
-        "${env:windir}\\System32\\cmd.exe"
-      ],
-      "args": [],
-      "icon": "terminal-cmd"
-    },
-    "Git Bash": {
-      "source": "Git Bash"
-    }
-  },
-  "terminal.integrated.fontSize": 12
+	"workbench.iconTheme": "symbols",
+	"workbench.productIconTheme": "fluent-icons",
+	"workbench.colorTheme": "Min Dark",
+	"workbench.startupEditor": "newUntitledFile",
+	"workbench.editor.labelFormat": "short",
+	"workbench.editor.untitled.hint": "hidden",
+	"window.zoomLevel": 0.5,
+	"explorer.compactFolders": false,
+	"explorer.confirmDelete": false,
+	"explorer.confirmDragAndDrop": false,
+	"breadcrumbs.enabled": true,
+	"editor.fontFamily": "JetBrains Mono",
+	"editor.fontSize": 14,
+	"editor.lineHeight": 1.7,
+	"editor.fontLigatures": true,
+	"editor.tabSize": 2,
+	"editor.indentSize": 2,
+	"editor.minimap.enabled": false,
+	"editor.suggestSelection": "first",
+	"editor.renderLineHighlight": "gutter",
+	"editor.parameterHints.enabled": false,
+	"editor.accessibilitySupport": "off",
+	"editor.semanticHighlighting.enabled": false,
+	"editor.rulers": [100],
+	"editor.quickSuggestions": {
+		"other": true,
+		"comments": true,
+		"strings": true
+	},
+	"editor.inlineSuggest.enabled": true,
+	"editor.formatOnSave": true,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.biome": "always",
+		"source.organizeImports.biome": "explicit"
+	},
+	"html.autoClosingTags": true,
+	"js/ts.autoClosingTags.enabled": true,
+	"editor.linkedEditing": true,
+	"editor.suggest.snippetsPreventQuickSuggestions": false,
+	"[javascript]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"terminal.integrated.fontFamily": "JetBrainsMono NF",
+	"terminal.integrated.fontSize": 12,
+	"terminal.integrated.gpuAcceleration": "off",
+	"terminal.integrated.showExitAlert": false,
+	"terminal.integrated.defaultProfile.windows": "PowerShell 7",
+	"terminal.integrated.profiles.windows": {
+		"PowerShell": {
+			"source": "PowerShell",
+			"icon": "terminal-powershell"
+		},
+		"PowerShell 7": {
+			"path": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+			"icon": "terminal-powershell"
+		},
+		"Command Prompt": {
+			"path": [
+				"${env:windir}\\Sysnative\\cmd.exe",
+				"${env:windir}\\System32\\cmd.exe"
+			],
+			"args": [],
+			"icon": "terminal-cmd"
+		},
+		"Git Bash": {
+			"source": "Git Bash"
+		}
+	},
+	"files.autoSave": "afterDelay",
+	"files.eol": "\n",
+	"files.associations": {
+		"*.tsx": "typescriptreact",
+		".env.*": "dotenv",
+		".prettierrc": "json"
+	},
+	"files.exclude": {
+		"**/CVS": true,
+		"**/.DS_Store": true,
+		"**/.hg": true,
+		"**/.svn": true,
+		"**/.git": true
+	},
+	"files.watcherExclude": {
+		"**/.next/**": true,
+		"**/dist/**": true,
+		"**/node_modules/**": true
+	},
+	"emmet.includeLanguages": {
+		"javascript": "javascriptreact",
+		"typescript": "typescriptreact"
+	},
+	"emmet.syntaxProfiles": {
+		"javascript": "jsx"
+	},
+	"emmet.showExpandedAbbreviation": "always",
+	"emmet.triggerExpansionOnTab": true,
+	"git.autofetch": true,
+	"git.enableSmartCommit": true,
+	"git.confirmSync": false,
+	"git.ignoreRebaseWarning": true,
+	"github.copilot.chat.commitMessageGeneration.instructions": [
+		{
+			"text": "Generate a concise Git commit message using the Conventional Commits specification.\n\nFORMAT:\n  <type>(<optional-scope>): <subject>\n\nTYPES — pick the one that best fits:\n  feat      → new feature or capability\n  fix       → bug fix\n  refactor  → code change with no feature or fix\n  chore     → tooling, deps, config, scripts\n  docs      → documentation only\n  style     → formatting, whitespace, no logic change\n  test      → adding or updating tests\n  perf      → performance improvement\n  ci        → CI/CD pipeline changes\n  revert    → reverts a previous commit\n\nRULES:\n  - Subject line: imperative mood, no period, max 72 characters\n  - Be specific but brief — describe WHAT changed and WHY if not obvious\n  - Use scope when the change is isolated to one area, e.g. feat(auth): ...\n  - No filler words: avoid 'update', 'change', 'modify' as the entire message\n  - One logical change per commit — if the diff covers multiple concerns, pick the dominant one\n\nEXAMPLES (good):\n  feat(auth): add Google OAuth login\n  fix(api): handle null response on timeout\n  chore: upgrade eslint to v9\n  refactor(cart): simplify total price calculation\n  docs: add setup instructions to README\n\nEXAMPLES (bad — never do this):\n  update code\n  fix bug\n  changes\n  WIP"
+		}
+	],
+	"diffEditor.codeLens": true,
+	"diffEditor.ignoreTrimWhitespace": false,
+	"update.mode": "start",
+	"security.workspace.trust.untrustedFiles": "newWindow",
+	"http.systemCertificatesNode": true,
+	"json.schemaDownload.trustedDomains": {},
+	"chat.mcp.gallery.enabled": true,
+	"chat.viewSessions.orientation": "stacked",
+	"js/ts.suggest.completeFunctionCalls": true,
+	"editor.inlineSuggest.suppressSuggestions": false,
+	"html.format.indentInnerHtml": true,
+	"editor.inlineSuggest.edits.showCollapsed": true,
+	"editor.suggest.preview": true,
+	"editor.defaultFormatter": "biomejs.biome",
+	"notebook.defaultFormatter": "biomejs.biome"
 }
